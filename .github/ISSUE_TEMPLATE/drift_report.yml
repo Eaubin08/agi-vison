@@ -1,0 +1,56 @@
+name: Signalement de Dérive Cognitive
+description: Signaler une hallucination ou une dérive non interceptée par le Juge.
+title: "[DERIVE]: "
+labels: ["bug", "critical", "drift"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de signaler cette dérive cognitive. La sécurité d'Obsidia repose sur votre vigilance.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description de la Dérive
+      description: Expliquez ce que l'IA a proposé et pourquoi cela viole le standard X-108.
+      placeholder: L'IA a proposé de sceller une structure contradictoire...
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Contexte du Système
+      description: Quel était le régime du système au moment de la dérive ? (Stable, Friction, etc.)
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs du Système
+      description: Copiez ici les logs pertinents de l'Espace Latent.
+    validations:
+      required: false
+---
+name: Suggestion d'Invariant (X-108)
+description: Proposer un nouvel invariant mathématique pour renforcer le Juge.
+title: "[SPEC]: "
+labels: ["enhancement", "spec", "x-108"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Proposez un nouvel invariant pour étendre la gouvernance d'Obsidia.
+  - type: textarea
+    id: invariant
+    attributes:
+      label: Description de l'Invariant
+      description: Expliquez la règle logique ou mathématique à ajouter.
+      placeholder: Toute structure de type A doit posséder la propriété B...
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Bénéfice pour la Souveraineté
+      description: Comment cet invariant renforce-t-il la sécurité du système ?
+    validations:
+      required: true

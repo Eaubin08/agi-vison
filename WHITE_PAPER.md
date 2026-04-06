@@ -3,6 +3,24 @@
 ## 1. Introduction
 L'intelligence artificielle souveraine ne peut pas être probabiliste. Elle doit être déterministe. Obsidia propose une architecture duale fusionnant exploration IA et gouvernance mathématique.
 
+```mermaid
+graph LR
+    subgraph "Noyau Cognitif"
+        IA[Exploration IA]
+    end
+    subgraph "Gouvernance"
+        EL[Espace Latent]
+        JD[Juge Déterministe]
+    end
+    subgraph "Mémoire"
+        MS[Mémoire Scellée]
+    end
+    IA --> EL
+    EL --> JD
+    JD -->|Validation| MS
+    JD -->|Veto| EL
+```
+
 ## 2. Le Noyau Cognitif (IA)
 Moteur d'exploration capable de générer des hypothèses complexes. Il synthétise, déduit et explore les solutions dans l'Espace Latent.
 
