@@ -1,6 +1,7 @@
 # Obsidia AGI — La Cognition Gouvernée
 
 [![Build Status](https://img.shields.io/badge/Build-Passing-10b981?style=flat-square)](https://github.com/aetienne08260/obsidia-agi)
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20App-6366f1?style=flat-square)](https://ais-pre-e4qdvcxgaxpt5rkckacitl-422332693421.europe-west2.run.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE.md)
 [![Formal Proofs](https://img.shields.io/badge/Formal%20Proofs-100%25%20Validated-10b981?style=flat-square)](proofs/Invariants.lean)
 [![Standard](https://img.shields.io/badge/Standard-X--108%20v1.3.0-white?style=flat-square)](WHITE_PAPER.md)
@@ -72,6 +73,11 @@ Pour les situations exigeant une réactivité extrême, le mode **Reflex** perme
 *   **Proof Lab** : Simulation en temps réel de l'interception du Juge.
 *   **Livre Blanc** : Spécifications détaillées de l'architecture X-108.
 *   **Preuves Formelles** : Code Lean 4 validant les invariants du noyau.
+
+## 🚀 Accéder à l'Application
+
+Vous pouvez explorer l'interface de gouvernance Obsidia en direct ici :
+**[👉 Accéder à Obsidia AGI (Live App)](https://ais-pre-e4qdvcxgaxpt5rkckacitl-422332693421.europe-west2.run.app)**
 
 ---
 
